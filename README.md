@@ -20,6 +20,8 @@
 언제나 기기에 관계없이 고객과 원활하게 상호작용할 수 있다.
 
 
+
+
 ## 2. 클라우드 네이티브 어플리케이션 아키텍쳐의 도입
 
 현재의 모든 서비스를 MSA로 분해하는 것 보다는
@@ -35,6 +37,10 @@
 
 
 ### **2) Central Configuration Server**
+
+분산 시스템에서 외부 설정을 위한 서버 및 클라이언트 지원을 제공한다.
+
+Config Server를 사용하면 모든 환경에서 어플리케이션의 속성을 중앙에서 관리할 수 ​​있다.
 
 ### **3) Dynamic Routing & Load Balancer**
 
@@ -53,6 +59,8 @@ Circuit Breaker를 발동시켜 사용불가상태로 전환함.
 ### **7) Monitoring**
 
 ### **8) Centralized Log Analysis**
+
+
 
 
 ## 3. 클라우드 네이티브 어플리케이션 Lab
