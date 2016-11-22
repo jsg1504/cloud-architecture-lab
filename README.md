@@ -44,13 +44,15 @@ Config Server를 사용하면 모든 환경에서 어플리케이션의 속성�
 
 ### **3) Dynamic Routing & Load Balancer**
 
+
+
 ### **4) Circuit Breaker** 
 
 장애가 발생한 서비스에 계속 접속할 경우, 
 
 다른 서비스에도 장애가 전이되는 것을 막기위해 일정시간 에러나 타임아웃이 지정한 수치를 넘어 발생하는 서비스에 대하여 
 
-Circuit Breaker를 발동시켜 사용불가상태로 전환함.
+Circuit Breaker를 발동시켜 사용불가상태로 전환한다.
 
 ### **5) Edge Server**
 
